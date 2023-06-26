@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.split_contents_more div {
+  text-transform: capitalize;
+}
+
+.infos {
+  margin-top: 2rem;
+}
+
+.receipts_wrapper_container {
+  padding: 10px;
+  width: 35%;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #242424;
+  color: white;
+}
+
+@media (max-width: 48rem) {
+  .receipts_wrapper_container {
+    width: 100%;
+  }
+}
+
+.receipts_wrapper_container .product_id {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.receipts_wrapper_container .product_id .av_prod {
+  text-transform: uppercase;
+  color: #575757;
+}
+
+.wrapper_ordered_items {
+  padding: 2rem;
+  border: 1px solid silver;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-top: 1rem;
+}
+
+@media (max-width: 48rem) {
+  .wrapper_ordered_items {
+    padding: 1rem;
+  }
+}
+
+.acccepted {
+  width: 100%;
+  background-color: #575757;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px;
+  border-radius: inherit;
+}
+
+.split_contents {
+  position: relative;
+}
+
+.split_contents::after {
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 50%;
+  height: 100%;
+  width: 2px;
+  background-color: white;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.split_contents .circle_main {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: #b3360c;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 50%;
+  z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.split_contents .one_location {
+  background-color: silver;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  align-items: center;
+}
+
+.split_contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px dotted #6a6a6a;
+  min-height: 140px;
+}
+
+.max-width-email {
+  max-width: 50px !important;
+}
+
+.split_contents_more {
+  padding-top: 1rem;
+  -webkit-box-flex: .5;
+      -ms-flex: .5;
+          flex: .5;
+  margin-left: auto;
+}
+
+.split_contents_more a {
+  color: red;
+  text-decoration: none;
+  margin-top: 5px;
+  display: block;
+}
+
+.split_contents_main {
+  padding-top: 1rem;
+}
+
+td {
+  text-overflow: ellipsis !important;
+}
+
+.wrapper_ordered_items table {
+  font-family: Verdana;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+.wrapper_ordered_items td, .wrapper_ordered_items th {
+  padding: 3px;
+  text-align: left;
+  margin: 0;
+  color: white !important;
+}
+
+.wrapper_ordered_items tbody tr:nth-child(1n) {
+  background-color: #606060;
+}
+
+.wrapper_ordered_items td {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.wrapper_ordered_items td, .wrapper_ordered_items th {
+  border: 1px solid silver;
+}
+
+.wrapper_ordered_items th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  text-transform: capitalize;
+  color: black;
+}
+
+#wrapper_ordered_items {
+  margin-top: 2rem;
+}
+
+#wrapper_ordered_items table {
+  font-family: Verdana;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+#wrapper_ordered_items td, #wrapper_ordered_items th {
+  padding: 3px;
+  text-align: left;
+  margin: 0;
+  color: white !important;
+}
+
+#wrapper_ordered_items th {
+  color: white;
+}
+
+#wrapper_ordered_items tbody tr:nth-child(2n) {
+  background-color: #606060;
+}
+
+#wrapper_ordered_items td {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+#wrapper_ordered_items td, #wrapper_ordered_items th {
+  border: 1px solid silver;
+}
+
+#wrapper_ordered_items th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  text-transform: capitalize;
+  color: black;
+}
+
+.info_out {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.rows_new td {
+  padding: 3px;
+}
+
+.trackingForm {
+  padding: 10px;
+}
+
+.trackingForm a {
+  text-align: center;
+  text-decoration: none;
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */

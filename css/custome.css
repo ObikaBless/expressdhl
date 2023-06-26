@@ -1,0 +1,125 @@
+.track_tracking_text_wrapper{
+    height: 60vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.space_top_more{
+    height: 40px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.track_display_wrapper_now{
+    width: 50%;
+    min-height: 100vh;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+
+.logo_bbars{
+    min-height: 80px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+
+.logo{
+ height: 60px;
+ width: 100%;
+ overflow: hidden;
+}
+
+.logo
+ img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+ }
+.logo_shipping_number{
+text-align: center;
+}
+.shippper_user_information{
+    display: flex;
+    gap: 15px;
+}
+.shipper_childen{
+    flex: .5;
+}
+.shipper_children_head{
+    border-bottom: 1px solid black;
+    font-weight: 800;
+}
+.shipement_status{
+    margin-top: 1rem;
+}
+
+.shipment_status{
+    height: 45px;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+.Shipment_Information{
+    margin-top: 2rem;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.shipement_options{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+
+@media(max-width: 48rem){
+    .track_display_wrapper_now{
+        width: 90%;
+    }
+    .logo{
+        height: 40px !important;
+    }
+    .shippper_user_information{
+        flex-direction: column;
+    }
+    .logo_bbars{
+        width: 70%;
+    }
+    .logo_shipping_number{
+        font-size: 14px;
+    }
+}
+
+
+.form_container_printend_main{
+    min-height: 100vh;
+    padding-top: 3rem;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#min_form_container_printend_main_parent{
+    min-height: 100px;
+    padding: 1rem;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+}
